@@ -29,58 +29,6 @@ html, body{
     margin: 0;
     padding: 0;
     width: 100%;
-
-    background: url(../images/header-img-large.png) no-repeat fixed center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-header{
-    display: inline;
-    position: fixed;
-    top: 10em;
-    width: 100%;
-}
-
-.small-logo{
-    max-width: 6%;
-    min-width: 3%;
-}
-
-.nav{
-    width: 550px;
-    height:35px;
-    text-align: center;
-}
-
-.nav ul{
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-
-.nav li{
-    display: inline;
-    padding: 5px;
-}
-
-.nav a{
-    text-decoration: none;
-    color: #7F132F;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active,
-.nav a:link,
-.nav a:visited{
-    color: #2E9F9C;
-}
-
-.wrapper{
-    padding: 15em;
 }
 
 img{
@@ -89,3 +37,67 @@ img{
     width: 100%;
     height: auto;
 }
+
+header{
+    background: url(../images/header-img-large.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: inline;
+    width: 100%;
+    position: fixed;
+    /*
+    background-color: rgba(255, 255, 255, .5);
+    */
+}
+
+.small-logo{
+    max-width: 6%;
+    min-width: 3%;
+    padding-top: 2em;
+}
+
+nav{
+    width: 550px;
+    height:35px;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    text-align: center;
+
+    /* Change image size so it is smaller so it fits here */
+}
+
+nav ul{
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #7F132F;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: #2E9F9C;
+}
+
+nav .selected{
+    color: #2E9F9C;
+}
+
+.wrapper{
+    height: 50em;
+    padding-top: 15em;
+}
+
+
