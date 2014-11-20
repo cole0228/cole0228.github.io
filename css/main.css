@@ -39,7 +39,6 @@ hr{
     height: 1px;
     border-color: #7F132F;
     color: #7F132F;
-    margin-top: 2em 0;
 }
 
 img {
@@ -133,11 +132,10 @@ h4{
 }
 
 .full-logo {
-    display: block;
     max-width: 50%;
     min-width: 3%;
-    height: 52em;
-    margin-bottom: 20em;
+    margin-bottom: -90px;
+    height: 47em;
     float: left;
 }
 
