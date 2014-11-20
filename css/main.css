@@ -15,7 +15,7 @@ white: #fff;
 @-o-viewport { width: device-width; scale: 1;}
 @viewport { width: device-width; scale: 1;}
 
-html{
+html {
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -35,7 +35,7 @@ html, body, .container {
     height: 100%;
 }
 
-hr{
+hr {
     height: 1px;
     border-color: #7F132F;
     color: #7F132F;
@@ -297,6 +297,12 @@ h5 {
     margin-bottom: -4rem;
     }
 
+    .full-logo{
+        float: none;
+        margin-top: 5em;
+        margin-bottom: -23em;
+        height: 100%;
+    }
 }
 /* Media queries */
 @media screen and (max-width: 156em) {
