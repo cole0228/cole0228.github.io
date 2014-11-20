@@ -127,7 +127,7 @@ h4{
 
 .small-logo {
     max-width: 6%;
-    min-width: 3%;
+    min-width: 5em;
     padding-top: 2em;
 }
 
@@ -169,6 +169,114 @@ h4{
     padding: 0;
 }
 
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+@media only screen and (max-width: 45em) {
+
+    .nav{
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .nav-btn,
+    .nav-btn:link,
+        .nav-btn:visited{
+        display: block;
+        max-width: 40px;
+        max-height: 40px;
+        position: absolute;
+        top: 35px;
+        right: 5%;
+        background: #7F132F url('../images/navicon.png') no-repeat center center;
+    }
+
+    .nav-btn:hover,
+    .nav-btn:focus,
+    .nav-btn:active{
+        background-color: #2E9F9C;
+    }
+
+    .nav-btn[data-state="active"] {
+        background: #fff url('../images/navicon.png') no-repeat center center;
+    }
+
+    .nav-top{
+    max-height: 0;
+    -moz-transition: all 265ms linear;
+    -o-transition: all 265ms linear;
+    -webkit-transition: all 265ms linear;
+    transition: all 265ms linear;
+    overflow:hidden;
+    }
+
+    .nav-top[data-state="expanded"]{
+    max-height: 15rem;
+    margin-top:4rem;
+    margin-bottom: -4rem;
+    }
+
+    .container > header h1 {
+        margin-bottom: 0;
+    }
+
+    .content h2 {
+        margin: 0 0 1em;
+    }
+
+    .wrapper {
+        font-size: 80%;
+    }
+
+    .wrapper > section {
+        background-position: 0 28em;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 25em) {
+
+    .nav-btn,
+    .nav-btn:link,
+        .nav-btn:visited{
+        display: block;
+        max-width: 40px;
+        max-height: 40px;
+        position: absolute;
+        top: 35px;
+        right: 5%;
+        background: #7F132F url('../images/navicon.png') no-repeat center center;
+    }
+
+    .nav-btn:hover,
+    .nav-btn:focus,
+    .nav-btn:active{
+        background-color: #2E9F9C;
+    }
+
+    .nav-btn[data-state="active"] {
+        background: #000 url('../images/navicon.png') no-repeat center center;
+    }
+
+    .nav-top{
+    max-height: 0;
+    -moz-transition: all 265ms linear;
+    -o-transition: all 265ms linear;
+    -webkit-transition: all 265ms linear;
+    transition: all 265ms linear;
+    overflow:hidden;
+    }
+
+    .nav-top[data-state="expanded"]{
+    max-height: 30rem;
+    margin-top:4rem;
+    margin-bottom: -4rem;
+    }
+
+}
 /* Media queries */
 @media screen and (max-width: 72.875em) {
 
@@ -187,25 +295,5 @@ h4{
 
     .nav li a {
         width: 160px;
-    }
-}
-
-@media screen and (max-width: 45.25em) {
-
-    .container > header h1 {
-        margin-bottom: 0;
-    }
-
-    .content h2 {
-        margin: 0 0 1em;
-    }
-
-    .wrapper {
-        font-size: 80%;
-    }
-
-    .wrapper > section {
-        background-position: 0 28em;
-        background-size: 100%;
     }
 }

@@ -27,8 +27,6 @@
     <meta name="twitter:image3" content="http://rebeckacole.ca/img/something">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive-nav.css" rel="stylesheet" >
-    <script src="js/responsive-nav.js"></script>
 </head>
 <body>
 
@@ -36,9 +34,10 @@
 
     <header class="header">
 
-        <nav class="nav nav-collapse">
+        <a href="#intro"><img src="images/small-logo.svg" class="small-logo" alt="Logo"></a>
 
-            <a href="#intro"><img src="images/small-logo.svg" class="small-logo" alt="Logo"></a>
+<a href="#nav" class="nav-btn hide-text" data-state="inactive">Nav</a>
+        <nav class="nav nav-top">
 
             <ul>
                 <!-- To change to maybe on logo -->
@@ -214,6 +213,6 @@
     </div>
 </div>
     <script src="js/main.js"></script>
-    <script> var nav = responsiveNav(".nav-collapse");</script>
+    <script src="js/nav.js"></script>
 </body>
 </html>
