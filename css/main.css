@@ -39,6 +39,7 @@ hr{
     height: 1px;
     border-color: #7F132F;
     color: #7F132F;
+    margin-top: 2em 0;
 }
 
 img {
@@ -46,6 +47,7 @@ img {
     margin: 0 auto;
     width: 50%;
     height: auto;
+    margin-bottom: 5px;
 }
 
 h1 {
@@ -55,12 +57,17 @@ h1 {
     line-height: 1em;
 }
 
+h4{
+    font-size: 1.5em;
+    color: #2E9F9C;
+    padding-bottom: .5em;
+}
+
 .header {
     background: url(../images/header-img-large.png) no-repeat fixed;
     background-size: 100%;
     z-index: 100;
     margin: 0 auto;
-    padding-bottom: 30px;
     width: 100%;
     text-align: center;
     position: fixed;
@@ -126,10 +133,11 @@ h1 {
 }
 
 .full-logo {
+    display: block;
     max-width: 50%;
     min-width: 3%;
     margin-bottom: -90px;
-    height: 50em;
+    height: 47em;
     float: left;
 }
 
