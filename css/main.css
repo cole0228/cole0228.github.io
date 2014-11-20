@@ -62,6 +62,14 @@ h4{
     padding-bottom: .5em;
 }
 
+h5 {
+    font-size: 3em;
+    color: #7F132F;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 1em;
+}
+
 .header {
     background: url(../images/header-img-large.png) no-repeat fixed;
     background-size: 100%;
