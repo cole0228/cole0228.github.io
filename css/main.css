@@ -240,3 +240,25 @@ nav .selected {
     -webkit-transform: translate3d(100%,0,0);
     transform: translate3d(100%,0,0);
 }
+
+.content {
+    position: relative;
+    margin: auto;
+    padding: 1em 0;
+    width: 95%;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.content h2 {
+    position: relative;
+    margin: 30px 0 40px;
+    color: #7F132F;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.content p {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
