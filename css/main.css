@@ -176,6 +176,13 @@ h4{
     display: block;
 }
 
+.social{
+    width: 12%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
 @media only screen and (max-width: 45em) {
 
     .nav{
@@ -184,7 +191,7 @@ h4{
 
     .nav-btn,
     .nav-btn:link,
-        .nav-btn:visited{
+    .nav-btn:visited{
         display: block;
         max-width: 40px;
         max-height: 40px;
@@ -205,18 +212,18 @@ h4{
     }
 
     .nav-top{
-    max-height: 0;
-    -moz-transition: all 265ms linear;
-    -o-transition: all 265ms linear;
-    -webkit-transition: all 265ms linear;
-    transition: all 265ms linear;
-    overflow:hidden;
+        max-height: 0;
+        -moz-transition: all 265ms linear;
+        -o-transition: all 265ms linear;
+        -webkit-transition: all 265ms linear;
+        transition: all 265ms linear;
+        overflow:hidden;
     }
 
     .nav-top[data-state="expanded"]{
-    max-height: 15rem;
-    margin-top:4rem;
-    margin-bottom: -4rem;
+        max-height: 20rem;
+        margin-top:4rem;
+        margin-bottom: -4rem;
     }
 
     .container > header h1 {
@@ -241,7 +248,7 @@ h4{
 
     .nav-btn,
     .nav-btn:link,
-        .nav-btn:visited{
+    .nav-btn:visited{
         display: block;
         max-width: 40px;
         max-height: 40px;
