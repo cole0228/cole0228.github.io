@@ -35,6 +35,12 @@ html, body, .container {
     height: 100%;
 }
 
+hr{
+    height: 2px;
+    border-color: #7F132F;
+    color: #7F132F;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -44,20 +50,16 @@ img {
 
 .header {
     background: url(../images/header-img-large.png) no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: 100%;
     z-index: 200;
     margin: 0 auto;
     padding-bottom: 30px;
-    width: 80%;
+    width: 100%;
     text-align: center;
     position: fixed;
     -webkit-backface-visibility: hidden;
     background-color: rgba(255, 255, 255, .5);
 }
-
 
 .container > header h1 {
     margin: 0 0 2em 0;
@@ -72,9 +74,9 @@ img {
     position: relative;
     display: block;
     margin: 0 auto;
-    padding: 0;
+    padding-bottom: 6em;
     list-style: none;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .4);
 
 }
 
@@ -110,10 +112,6 @@ img {
     color: #2E9F9C;
 }
 
-nav .selected {
-    color: #2E9F9C;
-}
-
 .small-logo {
     max-width: 6%;
     min-width: 3%;
@@ -121,52 +119,16 @@ nav .selected {
 }
 
 .full-logo {
-    max-width: 30%;
+    max-width: 50%;
     min-width: 3%;
-    display: inline-block;
-    padding-top: 140px;
     margin-bottom: -90px;
+    height: 60em;
+    float: left;
 }
 
-/*
-nav {
-    width: 550px;
-    height:35px;
-    margin: 0 auto;
-    padding-top: 2em;
-    padding-bottom: 3em;
-    text-align: center;
-
-    /* Change image size so it is smaller so it fits here */
+h1 {
+    margin-top: 18em;
 }
-/*
-nav ul {
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    display: inline;
-    padding: 5px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #7F132F;
-}
-
-nav a:hover,
-nav a:focus,
-nav a:active {
-    color: #2E9F9C;
-}
-
-nav .selected {
-    color: #2E9F9C;
-}
-
-*/
 
 .wrapper {
     position: relative;
@@ -176,102 +138,13 @@ nav .selected {
     width: 100%;
 }
 
-.triplelayout .wrapper > section {
-    z-index: 1;
-    min-height: 100%;
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    left: 10%;
-    visibility: hidden;
-    width: 80%;
-    -webkit-backface-visibility: hidden;
-}
-
-.triplelayout .wrapper > section:not(.current) {
-    overflow: hidden;
-    height: 100%;
-}
-.triplelayout .-wrapper .left,
-.triplelayout .wrapper .leftouter,
-.triplelayout .wrapper .current,
-.triplelayout .wrapper .right,
-.triplelayout .wrapper .right-outer {
-    visibility: visible;
-}
-
-.triplelayout .wrapper .left {
-    left: -70%; /* 80 - 10 */
-}
-
-.triplelayout .wrapper .left-outer {
-    left: -150%; /* - 70 - 80 */
-}
-
-.triplelayout .wrapper .current {
-    position: relative;
-    z-index: 100;
-}
-
-.triplelayout .wrapper .right {
-    left: 90%; /* 80 + 10 */
-}
-
-.triplelayout .wrapper .right-outer {
-    left: 170%; /* 90 + 80 */
-
-.container.move-left .left,
-.container.move-left .current,
-.container.move-left .right,
-.container.move-left .right-outer {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    -webkit-transform: translate3d(-100%,0,0);
-    transform: translate3d(-100%,0,0);
-}
-
-.container.move-right .left,
-.container.move-right .left-outer,
-.container.move-right .current,
-.container.move-right .right {
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-    -webkit-transform: translate3d(100%,0,0);
-    transform: translate3d(100%,0,0);
-}
-
-.sidenav div {
-    position: fixed;
-    top: 0;
-    z-index: 500;
-    width: 10%;
-    height: 100%;
-    background: rgba(0,0,0,0.3);
-    cursor: pointer;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-}
-
-.sidenav div:hover {
-    background: rgba(0,0,0,0.2);
-}
-
-.sidenav .sidenav-left {
-    left: 0px;
-}
-
-.sidenav .sidenav-right {
-    right: 0px;
-}
-
 .content {
     position: relative;
     margin: auto;
     padding: 1em 0;
-    width: 95%;
+    width: 50%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .content h2 {
@@ -322,12 +195,8 @@ nav .selected {
         font-size: 80%;
     }
 
-    .triplelayout .nav li a {
-        width: auto;
-        font-size: 70%;
-    }
-
     .wrapper > section {
         background-position: 0 28em;
         background-size: 100%;
     }
+}
