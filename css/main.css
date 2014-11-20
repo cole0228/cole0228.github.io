@@ -169,8 +169,74 @@ nav .selected {
 */
 
 .wrapper {
-    height: 50em;
-    padding-top: 15em;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
 }
 
+.triplelayout .wrapper > section {
+    z-index: 1;
+    min-height: 100%;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    visibility: hidden;
+    width: 80%;
+    -webkit-backface-visibility: hidden;
+}
 
+.triplelayout .wrapper > section:not(.current) {
+    overflow: hidden;
+    height: 100%;
+}
+.triplelayout .-wrapper .left,
+.triplelayout .wrapper .leftouter,
+.triplelayout .wrapper .current,
+.triplelayout .wrapper .right,
+.triplelayout .wrapper .right-outer {
+    visibility: visible;
+}
+
+.triplelayout .wrapper .left {
+    left: -70%; /* 80 - 10 */
+}
+
+.triplelayout .wrapper .left-outer {
+    left: -150%; /* - 70 - 80 */
+}
+
+.triplelayout .wrapper .current {
+    position: relative;
+    z-index: 100;
+}
+
+.triplelayout .wrapper .right {
+    left: 90%; /* 80 + 10 */
+}
+
+.triplelayout .wrapper .right-outer {
+    left: 170%; /* 90 + 80 */
+
+.container.move-left .left,
+.container.move-left .current,
+.container.move-left .right,
+.container.move-left .right-outer {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+.container.move-right .left,
+.container.move-right .left-outer,
+.container.move-right .current,
+.container.move-right .right {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
