@@ -23,23 +23,26 @@ html{
     text-size-adjust: 100%;
 }
 
-html, body{
+html, body, .container {
+/*
     font-family: sans-serif;
     line-height: 1.3rem;
     margin: 0;
     padding: 0;
+*/
+    position: relative;
     width: 100%;
     height: 100%;
 }
 
-img{
+img {
     display: block;
     margin: 0 auto;
     width: 50%;
     height: auto;
 }
 
-header{
+header {
     background: url(../images/header-img-large.png) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,13 +59,13 @@ header{
     */
 }
 
-.small-logo{
+.small-logo {
     max-width: 6%;
     min-width: 3%;
     padding-top: 2em;
 }
 
-nav{
+nav {
     width: 550px;
     height:35px;
     margin: 0 auto;
@@ -73,18 +76,18 @@ nav{
     /* Change image size so it is smaller so it fits here */
 }
 
-nav ul{
+nav ul {
     height: auto;
     padding: 0;
     margin: 0;
 }
 
-nav li{
+nav li {
     display: inline;
     padding: 5px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #7F132F;
 }
@@ -95,11 +98,11 @@ nav a:active {
     color: #2E9F9C;
 }
 
-nav .selected{
+nav .selected {
     color: #2E9F9C;
 }
 
-.wrapper{
+.wrapper {
     height: 50em;
     padding-top: 15em;
 }
