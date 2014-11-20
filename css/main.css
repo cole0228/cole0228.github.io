@@ -24,12 +24,12 @@ html{
 }
 
 html, body, .container {
-/*
+
     font-family: sans-serif;
     line-height: 1.3rem;
     margin: 0;
     padding: 0;
-*/
+
     position: relative;
     width: 100%;
     height: 100%;
@@ -42,7 +42,7 @@ img {
     height: auto;
 }
 
-header {
+.header {
     background: url(../images/header-img-large.png) no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -50,13 +50,68 @@ header {
     background-size: cover;
     z-index: 200;
     margin: 0 auto;
+    padding-bottom: 30px;
     width: 80%;
     text-align: center;
     position: fixed;
     -webkit-backface-visibility: hidden;
-    /*
     background-color: rgba(255, 255, 255, .5);
-    */
+}
+
+
+.container > header h1 {
+    margin: 0 0 2em 0;
+    padding: 0 0 0.8em;
+    font-weight: 300;
+    font-size: 2.4em;
+    line-height: 1.4;
+    -webkit-backface-visibility: hidden;
+}
+
+.nav {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(255, 255, 255, .5);
+
+}
+
+.nav li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 0;
+    outline: none;
+    border-top: 2px solid #7F132F;
+    border-bottom: 2px solid #7F132F;
+    color: #7F132F;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 1em;
+    -webkit-transition: border-color 0.3s, color 0.3s;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.nav li a:hover,
+.nav li a:focus,
+.nav li a:active {
+    border-color: #2E9F9C;
+    color: #2E9F9C;
+}
+
+nav .selected {
+    color: #2E9F9C;
 }
 
 .small-logo {
@@ -65,6 +120,15 @@ header {
     padding-top: 2em;
 }
 
+.full-logo {
+    max-width: 30%;
+    min-width: 3%;
+    display: inline-block;
+    padding-top: 140px;
+    margin-bottom: -90px;
+}
+
+/*
 nav {
     width: 550px;
     height:35px;
@@ -75,7 +139,7 @@ nav {
 
     /* Change image size so it is smaller so it fits here */
 }
-
+/*
 nav ul {
     height: auto;
     padding: 0;
@@ -101,6 +165,8 @@ nav a:active {
 nav .selected {
     color: #2E9F9C;
 }
+
+*/
 
 .wrapper {
     height: 50em;
