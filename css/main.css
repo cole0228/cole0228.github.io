@@ -99,7 +99,7 @@ h4 {
     text-align: center;
     position: fixed;
     -webkit-backface-visibility: hidden;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .6);
 }
 
 .container > header h1 {
@@ -118,7 +118,7 @@ h4 {
     display: block;
     margin: 0 auto;
     list-style: none;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .6);
 }
 
 .nav li {
