@@ -35,9 +35,14 @@ html, body, .container {
 }
 
 hr {
+    position: relative;
     height: 1px;
     border-color: #7F132F;
     color: #7F132F;
+}
+
+.clearfix {
+    clear: both;
 }
 
 img {
