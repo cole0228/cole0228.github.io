@@ -237,7 +237,7 @@ h5 {
     font-weight: 300;
 }
 
-/* different screen sizes */
+/* Media Queries */
 
 @media only screen and (max-width: 45em) {
     .full-logo {
@@ -395,7 +395,7 @@ h5 {
         height: 100%;
     }
 }
-/* Media queries */
+
 @media screen and (max-width: 156em) {
 
     .header,
