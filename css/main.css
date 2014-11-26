@@ -102,7 +102,6 @@ h5 {
     padding-bottom: 1em;
     list-style: none;
     background-color: rgba(255, 255, 255, .4);
-
 }
 
 .nav li {
@@ -211,7 +210,8 @@ h5 {
         position: absolute;
         top: 35px;
         right: 5%;
-        background: #7F132F url('../images/navicon.png') no-repeat center center;
+        background: #7F132F url('../images/nav-animation.gif') no-repeat center center;
+        background-size: contain;
     }
 
     .nav-btn:hover,
@@ -221,7 +221,8 @@ h5 {
     }
 
     .nav-btn[data-state="active"] {
-        background: #fff url('../images/navicon.png') no-repeat center center;
+        background: #2E9F9C url('../images/nav-animation.gif') no-repeat center center;
+        background-size: contain;
     }
 
     .nav-top{
@@ -268,7 +269,7 @@ h5 {
         position: absolute;
         top: 35px;
         right: 5%;
-        background: #7F132F url('../images/navicon.png') no-repeat center center;
+        background: #7F132F url('../images/nav-animation.gif') no-repeat center center;
     }
 
     .nav-btn:hover,
@@ -278,7 +279,7 @@ h5 {
     }
 
     .nav-btn[data-state="active"] {
-        background: #000 url('../images/navicon.png') no-repeat center center;
+        background: #2E9F9C url('../images/nav-animation.gif') no-repeat center center;
     }
 
     .nav-top{
