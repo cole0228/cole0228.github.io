@@ -162,7 +162,7 @@ h5 {
 .full-logo {
     max-width: 20em;
     min-width: 15em;
-    margin-bottom: -260px;
+    margin-bottom: -90px;
     height: 47em;
     float: left;
 }
@@ -212,6 +212,13 @@ h5 {
 }
 
 @media only screen and (max-width: 45em) {
+    .full-logo {
+        max-width: 20em;
+        min-width: 15em;
+        margin-bottom: -260px;
+        height: 47em;
+        float: left;
+    }
 
     .nav{
         background-color: rgba(255, 255, 255, 1);
@@ -301,9 +308,18 @@ h5 {
 
 @media only screen and (max-width: 25em) {
 
+    .full-logo {
+        max-width: 20em;
+        min-width: 15em;
+        margin-bottom: -260px;
+        height: 47em;
+        float: left;
+    }
+
     .nav li{
         font-size: 1em;
     }
+
     .nav-btn,
     .nav-btn:link,
     .nav-btn:visited{
