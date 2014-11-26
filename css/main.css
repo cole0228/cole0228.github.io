@@ -23,9 +23,7 @@ html {
 }
 
 html, body, .container {
-
-    font-family: sans-serif;
-    font-weight: lighter;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 1.3rem;
     margin: 0;
     padding: 0;
@@ -67,6 +65,7 @@ img {
 
 h1 {
     font-size: 2em;
+    font-weight: 700;
     color: #7F132F;
     margin-top: 10em;
     line-height: 1em;
@@ -74,6 +73,7 @@ h1 {
 
 h3 {
     font-size: 1.5em;
+    font-weight: 300;
     color: #2E9F9C;
 }
 
@@ -81,6 +81,7 @@ h4 {
     font-size: 1.5em;
     color: #2E9F9C;
     padding-bottom: .5em;
+    font-weight: 300;
 }
 
 h5 {
@@ -116,7 +117,6 @@ h5 {
     position: relative;
     display: block;
     margin: 0 auto;
-    padding-bottom: 1em;
     list-style: none;
     background-color: rgba(255, 255, 255, .4);
 }
@@ -127,6 +127,9 @@ h5 {
     margin-bottom: 10px;
     text-align: center;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.3em;
 }
 
 .nav li a {
@@ -139,9 +142,6 @@ h5 {
     border-bottom: 2px solid #7F132F;
     color: #7F132F;
     text-decoration: none;
-    letter-spacing: 2px;
-    font-weight: 400;
-    font-size: 1em;
     -webkit-transition: border-color 0.3s, color 0.3s;
     transition: border-color 0.3s, color 0.3s;
 }
@@ -162,7 +162,7 @@ h5 {
 .full-logo {
     max-width: 20em;
     min-width: 15em;
-    margin-bottom: -90px;
+    margin-bottom: -260px;
     height: 47em;
     float: left;
 }
@@ -181,7 +181,7 @@ h5 {
     padding: 1em 0;
     width: 50%;
     text-align: left;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .content h2 {
@@ -217,10 +217,17 @@ h5 {
         background-color: rgba(255, 255, 255, 1);
     }
 
+    .nav li{
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 1.2em;
+    }
+
     .nav-btn,
     .nav-btn:link,
     .nav-btn:visited{
         display: block;
+        height: 60px;
         max-width: 40px;
         max-height: 40px;
         position: absolute;
@@ -294,16 +301,21 @@ h5 {
 
 @media only screen and (max-width: 25em) {
 
+    .nav li{
+        font-size: 1em;
+    }
     .nav-btn,
     .nav-btn:link,
     .nav-btn:visited{
         display: block;
+        height: 60px;
         max-width: 40px;
         max-height: 40px;
         position: absolute;
         top: 35px;
         right: 5%;
         background: #7F132F url('../images/nav-animation.gif') no-repeat center center;
+        background-size: contain;
     }
 
     .nav-btn:hover,
@@ -314,6 +326,7 @@ h5 {
 
     .nav-btn[data-state="active"] {
         background: #2E9F9C url('../images/nav-animation.gif') no-repeat center center;
+        background-size: contain;
     }
 
     .nav-top{
