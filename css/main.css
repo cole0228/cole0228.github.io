@@ -43,9 +43,19 @@ hr {
 img {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
     height: auto;
     margin-bottom: 5px;
+}
+
+.img-left {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 2%;
+    float: left;
 }
 
 h1 {
