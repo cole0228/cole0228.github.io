@@ -63,6 +63,13 @@ img {
     float: left;
 }
 
+.img-small{
+    max-width: 50%;
+    float: left;
+}
+
+
+
 /* H stying */
 
 h1 {
@@ -409,6 +416,11 @@ h5 {
 
     .social{
         max-width: 5rem;
+    }
+
+    .img-small{
+        float: none;
+        max-width: 100%;
     }
 }
 
