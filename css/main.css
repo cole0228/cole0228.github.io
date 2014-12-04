@@ -209,8 +209,7 @@ h4 {
 }
 
 .social{
-    width: 12%;
-    min-width: 65px;
+    max-width: 8rem;
     display: inline-block;
     text-align: center;
 }
@@ -406,6 +405,10 @@ h5 {
         margin-top: 5em;
         margin-bottom: -23em;
         height: 100%;
+    }
+
+    .social{
+        max-width: 5rem;
     }
 }
 
