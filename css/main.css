@@ -217,6 +217,19 @@ h4 {
 
 /* Footer */
 
+.link-top {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    outline: none;
+    border-top: 2px solid #7F132F;
+    border-bottom: 2px solid #7F132F;
+    color: #7F132F;
+    text-decoration: none;
+}
+
 footer {
     background: url(../images/header-img-large.png) ;
     background-size: 100%;
