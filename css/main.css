@@ -203,7 +203,7 @@ h4 {
 .content {
     position: relative;
     margin: auto;
-    padding: 1em 0;
+    padding: 1em;
     width: 50%;
     text-align: left;
     font-size: 1.3em;
@@ -295,9 +295,9 @@ h5 {
     .full-logo {
         max-width: 20em;
         min-width: 15em;
-        margin-bottom: -260px;
+        margin-bottom: -630px;
         height: 47em;
-        float: left;
+        float: none;
     }
 
     .intro{
