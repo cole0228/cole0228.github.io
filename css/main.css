@@ -68,7 +68,9 @@ img {
     float: left;
 }
 
-
+.single-img{
+    max-width: 50%;
+}
 
 /* H stying */
 
