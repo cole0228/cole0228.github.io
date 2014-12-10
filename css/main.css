@@ -383,6 +383,10 @@ h5 {
         height: auto;
         margin-bottom: 5px;
     }
+
+    .single-img{
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 25em) {
