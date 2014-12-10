@@ -444,6 +444,10 @@ h5 {
         float: none;
         max-width: 100%;
     }
+
+    .single-img{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 156em) {
