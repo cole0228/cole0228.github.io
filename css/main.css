@@ -179,6 +179,17 @@ h4 {
     float: left;
 }
 
+.intro{
+    background-image: url(../images/intro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trans-box{
+    background-color: rgba(255, 255, 255, .7);
+}
+
 /* Content */
 
 .wrapper {
@@ -289,6 +300,10 @@ h5 {
         float: left;
     }
 
+    .intro{
+        background-size: cover;
+    }
+
     .nav{
         background-color: rgba(255, 255, 255, 1);
     }
@@ -349,11 +364,6 @@ h5 {
 
     .wrapper {
         font-size: 80%;
-    }
-
-    .wrapper > section {
-        background-position: 0 28em;
-        background-size: 100%;
     }
 
     .img-left {
