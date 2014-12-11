@@ -74,6 +74,10 @@ img {
     max-width: 50%;
 }
 
+.special-top{
+    margin-top:-9em;
+}
+
 /* H stying */
 
 h1 {
