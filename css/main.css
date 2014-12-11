@@ -66,6 +66,8 @@ img {
 .img-small{
     max-width: 50%;
     float: left;
+    margin-bottom: 1em;
+    padding-left: .3em;
 }
 
 .single-img{
@@ -457,6 +459,8 @@ h5 {
     .img-small{
         float: none;
         max-width: 100%;
+        margin: .3em;
+        padding: 0;
     }
 
     .single-img{
