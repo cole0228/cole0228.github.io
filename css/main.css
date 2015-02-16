@@ -318,13 +318,13 @@ h5 {
     .full-logo {
         max-width: 20em;
         min-width: 15em;
-        margin-bottom: -180px;
-        height: 20em;
+        margin-bottom: -4em;
         float: none;
     }
 
     .intro{
         background-size: cover;
+        margin-top: 0;
     }
 
     .nav{
@@ -416,9 +416,8 @@ h5 {
 
     .full-logo {
         max-width: 20em;
-        min-width: 15em;
-        margin-bottom: -100px;
-        height: 20em;
+        min-width: 5em;
+        margin-bottom: 0em;
         float: left;
     }
 
