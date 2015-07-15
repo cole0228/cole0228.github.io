@@ -31,6 +31,12 @@
   width:300px;
 }
 
+.logo-size{
+  margin-top: -30px !important;
+  width: 40% !important;
+  height: 20% !important;
+  mix-blend-mode: multiply;
+}
 
 h1 {
   font-size:36px;
@@ -111,7 +117,7 @@ textarea{
   margin:0 0 15px 0;
 }
 
-.contact{ 
+.contact{
   margin:0 auto;
 }
 
@@ -154,6 +160,12 @@ textarea{
   width:300px;
 }
 
+.logo-size{
+  margin-top: -30px !important;
+  width: 40% !important;
+  height: 20% !important;
+  mix-blend-mode: multiply;
+}
 
 h1 {
   font-size:36px;
@@ -222,7 +234,7 @@ h1 {
   padding-left:0;
 }
 
-.contact{ 
+.contact{
   margin:0 auto;
 }
 
@@ -254,7 +266,12 @@ textarea{
 /* iPad (portrait) */
 @media (min-width: 768px) and (max-width: 1023px) {
 
-
+.logo-size{
+  margin-top: -30px !important;
+  width: 40% !important;
+  height: 20% !important;
+  mix-blend-mode: multiply;
+}
 
 .menu-content .logo{
   width:200px;
@@ -300,7 +317,7 @@ textarea{
   width:700px;
 }
 
-.contact{ 
+.contact{
   margin:0 auto;
 }
 

@@ -17,6 +17,9 @@
  * Created: 14/11/2014
  */
 
+img{
+  max-width: 100%;
+}
 
 .preloader{
   position:fixed;

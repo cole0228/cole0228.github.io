@@ -111,13 +111,6 @@ h1 span{
   z-index:10;
 }
 
-.logo-size{
-  margin-top: -30px !important;
-  width: 50% !important;
-  height: 63% !important;
-  mix-blend-mode: multiply;
-}
-
 .start-page hr{
   color: white;
   margin-top:30px;
