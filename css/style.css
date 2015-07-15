@@ -531,10 +531,10 @@ h1 span{
   position:relative;
   margin:50px auto 100px;
   line-height:47px;
-  border:1px solid #000;
+  border:1px solid #fff;
   text-transform:uppercase;
   text-align:center;
-  color:#000;
+  color:#fff;
   cursor:pointer;
   font-size:14px;
   background:none;
@@ -548,7 +548,7 @@ h1 span{
 
 .portfolio .portfolio-margin .read-more:hover{
   background:#a6d0a6;
-  color:white;
+  color: #fff;
   border:1px solid #a6d0a6;
 }
 
