@@ -32,7 +32,6 @@
 }
 
 .logo-size{
-  margin-top: -30px !important;
   width: 40% !important;
   height: 20% !important;
   mix-blend-mode: multiply;
@@ -161,7 +160,6 @@ textarea{
 }
 
 .logo-size{
-  margin-top: -30px !important;
   width: 40% !important;
   height: 20% !important;
   mix-blend-mode: multiply;
@@ -267,7 +265,6 @@ textarea{
 @media (min-width: 768px) and (max-width: 1023px) {
 
 .logo-size{
-  margin-top: -30px !important;
   width: 40% !important;
   height: 20% !important;
   mix-blend-mode: multiply;
