@@ -161,9 +161,9 @@ h1 span{
   height:47px;
   margin:100px auto;
   line-height:47px;
-  border:1px solid white;
+  border:1px solid #fff;
   text-transform:uppercase;
-  color:white;
+  color: #fff;
   display:block;
   cursor:pointer;
   font-size:14px;
@@ -177,7 +177,7 @@ h1 span{
 }
 
 .start-page .content .text .read-more:hover{
-  color:white;
+  color: #fff;
   background: #a6d0a6;
   border:1px solid #a6d0a6;
 }
@@ -513,7 +513,7 @@ h1 span{
 .portfolio{
   position:relative;
   width:100%;
-  background:#f3f3f3;
+  background:#3c3c3c;
   z-index:10;
 
 }
@@ -531,10 +531,10 @@ h1 span{
   position:relative;
   margin:50px auto 100px;
   line-height:47px;
-  border:1px solid #333333;
+  border:1px solid #fff;
   text-transform:uppercase;
   text-align:center;
-  color:#333333;
+  color:#fff;
   cursor:pointer;
   font-size:14px;
   background:none;
@@ -548,13 +548,13 @@ h1 span{
 
 .portfolio .portfolio-margin .read-more:hover{
   background:#a6d0a6;
-  color:white;
+  color: #fff;
   border:1px solid #a6d0a6;
 }
 
 .portfolio .portfolio-margin h1{
   font-size:34px;
-  color:black;
+  color:white;
   text-align:center;
   margin-top:120px;
   letter-spacing:6px;
@@ -566,7 +566,7 @@ h1 span{
 .portfolio .portfolio-margin hr{
   color: black;
   margin-top:30px;
-  background-color: black;
+  background-color: white;
   height: 1px;
   width:106px;
   border:0;
