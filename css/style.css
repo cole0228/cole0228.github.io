@@ -95,8 +95,6 @@ h1 span{
 
 
 
-
-
 /* Start page */
 
 .start-page{
@@ -146,6 +144,13 @@ h1 span{
   right:0;
   width:700px;
   height:520px;
+}
+
+.logo-size{
+  margin-top: -30px !important;
+  width: 50% !important;
+  height: 63% !important;
+  mix-blend-mode: multiply;
 }
 
 .start-page .content .text .logo{
