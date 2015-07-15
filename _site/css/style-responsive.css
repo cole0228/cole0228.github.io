@@ -10,19 +10,6 @@
   display:block;
 }
 
-.start-page{
-  position:relative;
-  width:100%;
-  height:100%;
-  z-index:10;
-  background:url(../images/background/start-page.jpg) bottom center fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .start-page .content {
   width:300px;
   height:100%;
@@ -164,19 +151,6 @@ textarea{
   width:300px;
 }
 
-.start-page{
-  position:relative;
-  width:100%;
-  height:100%;
-  z-index:10;
-  background:url(../images/background/start-page.jpg) bottom center fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .logo-size{
   margin-top: 10px !important;
   width: 40% !important;
@@ -288,19 +262,6 @@ textarea{
   width: 40% !important;
   height: 20% !important;
   mix-blend-mode: multiply;
-}
-
-.start-page{
-  position:relative;
-  width:100%;
-  height:100%;
-  z-index:10;
-  background:url(../images/background/start-page.jpg) bottom center fixed no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .menu-content .logo{
