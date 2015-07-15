@@ -230,7 +230,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#a6d0a6;
+  background:black;
   z-index:1000;
   display:none;
 }
@@ -768,47 +768,40 @@ h1 span{
   border:0;
 }
 
-.contact .content .form{
+.contact .content{
   width:455px;
   overflow:hidden;
   height:auto;
-  float:left;
 }
 
-.contact .content .form .column{
+.contact .content .column{
   width:180px;
   overflow:hidden;
   height:auto;
-  float:left;
   letter-spacing:1px;
   margin-bottom:30px;
 }
 
-.contact .content .form .column-2{
+.contact .content .column-2{
   width:210px;
-  padding-left:60px;
   overflow:hidden;
   height:auto;
-  float:left;
   letter-spacing:1px;
   margin-bottom:30px;
 }
 
-.contact .content .form .column-3{
+.contact .content .column-3{
   width:450px;
   overflow:hidden;
   height:auto;
-  float:left;
   letter-spacing:1px;
 }
 
 .contact .content .contact-text{
-  width:405px;
   overflow:hidden;
   height:auto;
   font-weight:300;
-  float:left;
-  padding-left:40px;
+  text-align: center;
   color:black;
   font-size:14px;
   line-height:26px;
