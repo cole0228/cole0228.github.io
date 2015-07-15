@@ -161,9 +161,9 @@ h1 span{
   height:47px;
   margin:100px auto;
   line-height:47px;
-  border:1px solid #000;
+  border:1px solid #fff;
   text-transform:uppercase;
-  color:white;
+  color: #fff;
   display:block;
   cursor:pointer;
   font-size:14px;
@@ -177,7 +177,7 @@ h1 span{
 }
 
 .start-page .content .text .read-more:hover{
-  color: #000;
+  color: #fff;
   background: #a6d0a6;
   border:1px solid #a6d0a6;
 }
