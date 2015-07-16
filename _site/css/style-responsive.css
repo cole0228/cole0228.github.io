@@ -1,6 +1,6 @@
 
 /* iPad (portrait) */
-@media (min-width: 320px) and (max-width: 579px) {
+@media (min-width: 0px) and (max-width: 579px) {
 
 .menu{
   display:none;
