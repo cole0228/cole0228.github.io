@@ -220,7 +220,7 @@ h1 span{
 /* Menu mobile */
 
 .menu-media{
-  position:fixed;
+  position:relative;
   width:100%;
   height:90px;
   background: #a4a4a4;
