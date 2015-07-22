@@ -4,13 +4,8 @@ Designer: Rebecka Cole
 E-mail: rebecka.cole@gmail.com
 Location: Ottawa, Canada
 Website: rebeckacole.ca
-GitHub: http://guthub.com/cole0228
+GitHub: http://github.com/cole0228
 
-# THANKS
-
-Downloaded Code Thing © Some Person: http://codething.com
-Stock Image © Another Person: http://gettyimages.com
-Pedor Santos http://pedrosantos.info/
 
 # TOOLS
 
@@ -19,6 +14,3 @@ GutHub
 Photoshop
 Illustrator
 ImageOptim
-Hover.com
-
-(,,,)(^-.-^)(,,,)
